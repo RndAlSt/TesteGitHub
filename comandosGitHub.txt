@@ -1,10 +1,23 @@
+################################################################################
 git init
 git config --global user.name"<UsuarioGit>"
 git config --global user.email"<e-mail>"
 git remote add origin <https.git>
 git status
-
-git add . //Para adicionar todos os arquivos no repositorio local
-git commit -m "<Explicação das alterações>"
+################################################################################
+git add . 		//Adicionar todos os arquivos no repositorio local
+git commit -m "<Nome alterações>"
 git push -u origin master //-u Só no primeiro push
-
+################################################################################
+git clone <https.git> 	//Clonar pasta de alguem
+cd <NomeDaPasta>	//Nome local arquivos clonados.
+################################################################################
+criar Pasta para local do clone
+Botão direito nessa pasta "Git bash here"
+No terminal digitar os comandos:
+git clone <https.git> 	//Link do git hub do colaborador
+cd <NomeDaPasta>	//Nome da pasta que acabou de clonar
+#### Fazer alterações ###
+git add .
+git commit -m "<nome alterações>"
+git push -u origin master		//Subir alterações para o repositório online
