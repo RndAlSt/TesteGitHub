@@ -1,0 +1,6 @@
+git init
+git config --global user.name"<UsuarioGit>"
+git config --global user.email"<e-mail>"
+git remote add origin <https.git>
+git status
+
