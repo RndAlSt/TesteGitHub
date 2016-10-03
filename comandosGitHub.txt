@@ -4,3 +4,7 @@ git config --global user.email"<e-mail>"
 git remote add origin <https.git>
 git status
 
+git add . //Para adicionar todos os arquivos no repositorio local
+git commit -m "<Explicação das alterações>"
+git push -u origin master //-u Só no primeiro push
+
