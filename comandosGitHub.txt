@@ -1,3 +1,5 @@
+(alteração teste)
+
 git init
 git config --global user.name"<UsuarioGit>"
 git config --global user.email"<e-mail>"
